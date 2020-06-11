@@ -6,10 +6,16 @@
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
   flex-direction: row;
+  margin-left: -5vw;
+  width: 100vw;
 }
 
 .item {
   text-align: center;
+  padding: 50px;
+  width: 0.5;
+  margin: 5px;
+  float: right;
 }
 
 img {
@@ -20,4 +26,8 @@ img {
 img:hover {
   -webkit-transform: rotate(360deg);
           transform: rotate(360deg);
+}
+
+.linktree {
+  padding: 50px
 }
