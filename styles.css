@@ -10,22 +10,34 @@
   width: 100vw;
 }
 
-.item {
+.logo-container {
   text-align: center;
-  padding: 50px;
-  width: 0.5;
-  margin: 5px;
-  float: right;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5%;
 }
 
-img {
-  border-radius: 50%;
-  -webkit-transition: -webkit-transform .8s ease-in-out;
-          transition:         transform .8s ease-in-out;
+.logo {
+  height: 50vmin;
+  pointer-events: none;
 }
-img:hover {
-  -webkit-transform: rotate(360deg);
-          transform: rotate(360deg);
+
+@media (prefers-reduced-motion: no-preference) {
+  .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .linktree {
