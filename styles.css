@@ -58,9 +58,9 @@ a:link, a:visited {
   display: inline-block;
   margin-top: 5px;
   margin-bottom: 5px;
-  line-height: 20vh;
-  height: 20vh;
-  width: 100vh;
+  line-height: 10vw;
+  height: 10vw;
+  width: 50vw;
   text-align: center;
   vertical-align: middle;
   text-decoration: none;
